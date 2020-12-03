@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "관객사냥꾼"
+  },
+  "text": {
+    "more": "",
+    "intro": "작품과 장르 사이의 관계를 통해 한국에서 흥행하는 장르에 대해 알아 볼 수 있습니다.",
+    "title": "영화 네 이놈 게섯거라"
+  },
+  "legend": {
+    "edgeLabel": "장르와 작품의 관계",
+    "colorLabel": "modularity",
+    "nodeLabel": "장르,작품"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "modularity_class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
